@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: skopeo-lsm5
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/lmandvek-tenant/skopeo-1/skopeo-lsm5@sha256:af27f583448cf1d1c34b56945a04048b5ed161ecea0a4fdd70dc5079da94a5d6
         imagePullPolicy: Always
         name: container-image
         resources:
