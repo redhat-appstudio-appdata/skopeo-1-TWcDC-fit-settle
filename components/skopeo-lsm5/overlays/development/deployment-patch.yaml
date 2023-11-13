@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: skopeo-lsm5
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/lmandvek-tenant/skopeo-1/skopeo-lsm5@sha256:af27f583448cf1d1c34b56945a04048b5ed161ecea0a4fdd70dc5079da94a5d6
+        name: container-image
+        resources: {}
+status: {}
