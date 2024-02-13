@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: skopeo-1
   name: skopeo-lsm5
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
